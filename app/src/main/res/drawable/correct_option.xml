@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <solid android:color="#ACE4AE"/>
+    <!--    solid fun helps us to change color of inside box-->
+    <!--    stroke helps us to make a dark line for option -->
+    <!--    shape is used to provide shape and corners helps us to make coroner radius curve-->
+    <corners android:radius="5dp"/>
+
+
+
+</shape>

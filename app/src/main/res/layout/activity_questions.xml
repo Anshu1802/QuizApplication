@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context=".Questions"
+    android:background="@drawable/mcq_bg">
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Question for the Quiz"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:progress="0"
+        android:max="5"
+        android:minHeight="50dp"
+        style="?android:progressBarStyleHorizontal"/>
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/5"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/opt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option-1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/questionoption_bg"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option-2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/questionoption_bg"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option-3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/questionoption_bg"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/opt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option-4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/questionoption_bg"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="આગળ"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>
